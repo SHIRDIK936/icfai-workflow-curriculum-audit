@@ -1,6 +1,9 @@
-Date,Type,Description,Value,Status
-2026-10-24,Access limitation,No permission for fieldwork,N/A,Declared
-2026-10-24,Assumption,Manual effort per request,25 minutes,Unverified
-2026-10-24,Assumption,Digital effort per request,8 minutes,Unverified
-2026-10-24,Assumption,Monthly request volume,100,Unverified
-2026-10-24,Observation,Actual college workflow,N/A,Not observed
+Date,Evidence_Type,Activity,Sample_Size,Time_Minutes,Status
+2026-10-24,Access Limitation,No permission for real fieldwork,0,0,Declared
+2026-10-24,Hypothetical,Student prepares lab booking request,1,10,Assumed
+2026-10-24,Hypothetical,Faculty checks request,1,5,Assumed
+2026-10-24,Hypothetical,Lab availability verification,1,5,Assumed
+2026-10-24,Hypothetical,Approval communication,1,5,Assumed
+2026-10-24,Hypothetical,Digital request submission,1,3,Assumed
+2026-10-24,Hypothetical,Digital administrative handling,1,5,Assumed
+2026-10-24,Hypothetical,Monthly booking requests,100,0,Assumed
