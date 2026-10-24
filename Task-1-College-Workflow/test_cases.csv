@@ -1,0 +1,6 @@
+Test_ID,Scenario,Expected_Result,Actual_Result,Status
+TC01,Normal request,Pending approval,Not executed,Pending
+TC02,Missing information,Correction requested,Not executed,Pending
+TC03,Duplicate request,Duplicate flagged,Not executed,Pending
+TC04,Unauthorized request,Access denied,Not executed,Pending
+TC05,System failure,Safe recovery,Not executed,Pending
