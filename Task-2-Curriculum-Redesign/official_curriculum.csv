@@ -1,1 +1,54 @@
-c:\Users\acer\Downloads\official_curriculum.csv
+Semester,Course_Code,Course_Title,Credits
+1,MA101,Linear Algebra and Ordinary Differential Equations,3
+1,EG101,English Language Skills,3
+1,MT101,Digital Fabrication,3
+1,PH101,Physics,5
+1,CH101,Chemistry,4
+1,CS101,Computer Programming,4
+1,HS101,Essence of Indian Traditional Knowledge,0
+2,MA102,Higher Calculus,3
+2,EG102,Professional Communication,3
+2,EC101,Basic Electronics,4
+2,DS101,Introduction to DS and AI,3
+2,CH102,Environmental Sciences,2
+2,CS102,Data Structures,4
+2,MT102,Engineering Graphics,3
+3,EC201,Introduction to IoT,3
+3,CS201,Object Oriented Programming Concepts,4
+3,MA201,Integral Transforms and Probability and Statistics,3
+3,CS206,Database Management Systems,4
+3,CS203,Design and Analysis of Algorithms,3
+3,MG201,Engineering Economics and Management,3
+3,MA202,Discrete Mathematics,3
+3,CR201,Power Skills I,1
+4,CS302,Operating Systems,4
+4,CS204,Computer Organization and Architecture,3
+4,DS201,Artificial Intelligence,3
+4,CS205,Web Enabled Technologies Web 3.0,4
+4,DS202,Industry Coding Practice Python and R,3
+4,DS203,Data Science,3
+4,HSXXX,Digital Humanities Elective,3
+4,CR202,Power Skills II,1
+5,DS301,Soft Computing,3
+5,DS302,Computer Networks,4
+5,DS303,Blockchain Technology,3
+5,DS304,Machine Learning,4
+5,DS305,Data Wrangling and Visualization,3
+5,HS301,Constitution of India,3
+5,DSXXX,Discipline Elective I,3
+5,CR301,Power Skills III,1
+6,EC102,Fundamentals of Signal Processing,3
+6,DS306,Deep Learning,3
+6,DS307,Big Data Systems,3
+6,MT310,Autonomous Vehicles,3
+6,SP301,Special Project,3
+6,DSXXX,Discipline Elective II,3
+6,CR302,Power Skills IV,1
+7,IP401,Internship Program or Research,Unallocated
+7,TS401,Thesis and Seminar,Unallocated
+7,ELECTIVES,Professional or Discipline Electives,Unallocated
+7,DHE,Digital Humanities Elective,Unallocated
+8,IP401,Internship Program or Research,Unallocated
+8,TS401,Thesis and Seminar,Unallocated
+8,ELECTIVES,Professional or Discipline Electives,Unallocated
+8,DHE,Digital Humanities Elective,Unallocated
