@@ -11,60 +11,83 @@
 
 This repository contains two academic assignments:
 
-1. Investigation and redesign of a college workflow.
-2. Audit and proposed redesign of the B.Tech Artificial Intelligence and Machine Learning curriculum.
+1. **Task 1:** Investigation and redesign of a college workflow.
+2. **Task 2:** Audit and proposed redesign of the B.Tech Artificial Intelligence and Machine Learning curriculum.
 
 The project includes workflow diagrams, synthetic tests, curriculum analysis, industry comparisons, Python verification scripts, and an interactive Streamlit dashboard.
+
+### Project Objectives
+
+- Analyze a college workflow and identify potential improvements.
+- Design a structured workflow with defined responsibilities and approval boundaries.
+- Evaluate the proposed workflow using synthetic test cases.
+- Review the existing AI/ML curriculum against industry requirements.
+- Recommend curriculum improvements while considering academic regulations.
+- Evaluate AI-assisted learning exercises using reference tests.
+- Present findings through an interactive dashboard.
 
 ---
 
 ## Task 1 — College Workflow Investigation
 
-**Selected Process:** College Laboratory Booking and Approval System.
+**Selected Process:** College Laboratory Booking and Approval System
 
-This is a hypothetical process model prepared for academic analysis. It is not presented as an observed or institutionally approved ICFAI workflow.
+The selected workflow is a hypothetical process model developed for academic analysis.
+
+It is not presented as an observed, officially implemented, or institutionally approved ICFAI workflow.
 
 ### Included Components
 
 - Current workflow diagram
 - Proposed workflow diagram
-- Evidence log with assumptions and estimates
+- Evidence log distinguishing assumptions and estimates
 - Defined workflow states and approval boundaries
 - Five synthetic test cases
-- Python workflow test script
+- Python workflow verification script
 - Estimated time savings and ROI
-- Risks and limitations
+- Risks, exceptions, and limitations
 
 ### Synthetic Test Scenarios
 
-1. Normal booking request
-2. Missing information
-3. Duplicate booking
-4. Unauthorized approval
-5. Failed processing step
+| Test Case | Scenario | Expected Behaviour |
+|---|---|---|
+| TC01 | Normal booking request | Request follows the approval process |
+| TC02 | Missing information | Request requires additional information |
+| TC03 | Duplicate booking | Duplicate request is identified |
+| TC04 | Unauthorized approval | Unauthorized action is rejected |
+| TC05 | Failed processing step | Recovery or fallback procedure is triggered |
 
-The reference workflow script passed five synthetic checks. These tests do not establish production readiness.
+The workflow reference script passed five synthetic checks.
+
+These results validate selected model behaviours only and do not establish production readiness.
 
 ### Estimated Time Savings
 
-Under the stated hypothetical assumptions:
+The proposed workflow was evaluated using hypothetical operating assumptions.
 
-| Metric | Value |
-|---|---|
+| Metric | Estimated Value |
+|---|---:|
 | Manual processing time | 25 minutes/request |
 | Proposed processing time | 8 minutes/request |
 | Monthly request volume | 100 |
-| Estimated net time saved | 28.25 hours/month |
-| Estimated implementation effort | 60 hours |
+| Net time saved | 28.25 hours/month |
+| Implementation effort | 60 hours |
 | Estimated payback period | 2.12 months |
 
-These values are estimates, not measured institutional outcomes.
+The net savings estimate accounts for assumed review and support effort.
 
-**Task 1 files:** [Task-1-College-Workflow](Task-1-College-Workflow)
+These values are estimates rather than measured institutional outcomes.
+
+### Task 1 Documentation
+
+[View Task 1 Files](Task-1-College-Workflow)
 
 ---
 
 ## Task 2 — Curriculum Audit and Redesign
+
+**Programme:** B.Tech Artificial Intelligence and Machine Learning  
+**Admission Batch:** 2023–2027
 
 **Curriculum Source:** ICFAI Tech Student Handbook 2023–24, Section 4.7.3, page 27.
 
@@ -78,70 +101,99 @@ These values are estimates, not measured institutional outcomes.
 - Executable reference-solution tests
 - AI-output verification report
 - Proposed database laboratory
-- Evidence and limitations
+- Supporting evidence and limitations
 
 ### Curriculum Credit Limitation
 
-The transcription records 135 numeric credits across Semesters I–VI.
+The current transcription records **135 numeric credits across Semesters I–VI**.
 
 Semesters VII–VIII include grouped or alternative activities whose individual credits have not been allocated in the CSV.
 
 The handbook's displayed semester totals, visible course credits, and printed programme total require reconciliation.
 
-Therefore, the redesign is provisional and is not claimed to be a verified credit-balanced replacement for the complete programme.
+Consequently, the proposed redesign is provisional and is not claimed to be a verified credit-balanced replacement for the complete programme.
 
-### Proposed Curriculum Changes
+### Proposed Curriculum Improvements
 
-The proposed redesign retains core programming and mathematical foundations while strengthening:
+The redesign aims to strengthen the following areas:
 
-- Machine learning evaluation
-- Deep learning practice
-- Data engineering
-- Model deployment and MLOps
-- Responsible AI
-- Practical software testing
+| Area | Proposed Improvement |
+|---|---|
+| Programming | More practical coding and testing |
+| Machine Learning | Stronger model evaluation practices |
+| Deep Learning | Additional implementation exercises |
+| Data Engineering | Data processing and pipeline skills |
+| MLOps | Model deployment and monitoring concepts |
+| Responsible AI | Ethics, fairness, and transparency |
+| Software Engineering | Version control and testing practices |
+
+The proposals require institutional and regulatory review before adoption.
 
 ### Industry Comparison
 
-Three dated Amazon job descriptions are documented in `job_comparison.md`.
+Three dated Amazon job descriptions are discussed in:
 
-The comparison identifies skills relevant to applied AI roles but does not imply that every posting is an entry-level graduate role.
+[Industry Job Comparison](Task-2-Curriculum-Redesign/job_comparison.md)
 
-The job postings and their dates require independent verification.
+The analysis considers industry expectations relating to programming, machine learning, software engineering, and practical AI development.
 
-### AI Exercise Verification
+Not all referenced positions are necessarily entry-level graduate roles.
 
-Five AI-assisted exercises were documented and evaluated.
+The job descriptions, publication dates, and availability of their original sources require independent verification.
 
-| Subject | Verification | Result |
+---
+
+## AI-Assisted Exercise Verification
+
+Five AI-assisted exercises were documented across different subjects.
+
+### Verification Results
+
+| Subject | Verification Method | Result |
 |---|---|---|
 | Computer Programming | Four Python test cases | PASS — 4/4 |
-| Data Structures | Four stack operation tests | PASS — 4/4 |
+| Data Structures | Four stack-operation tests | PASS — 4/4 |
 | Database Management Systems | Three SQLite checks | PASS — 3/3 |
 | Machine Learning | Three structural completeness checks | PASS — 3/3 |
 | Deep Learning | Three mathematical checks | PASS — 3/3 |
 | **Total** | **17 checks** | **17/17 PASS** |
 
-**Important:** The Machine Learning checks confirm that the explanation includes a definition, example, and prevention method. They do not independently establish factual correctness.
+### Verification Scope
 
-All verification exercises use synthetic examples and limited test coverage.
+The exercises cover:
 
-The AI-generated reference outputs and verification procedures are documented in the project files. Their provenance and independent validation should be reviewed before treating them as fully verified academic evidence.
+1. Finding the maximum value in a list without using `max()`.
+2. Implementing a stack using Python.
+3. Counting approved laboratory bookings using SQL.
+4. Explaining data leakage in machine learning.
+5. Calculating convolutional layer output dimensions.
 
-**Verification files:**
+The combined verification script completed **17/17 checks successfully**.
+
+However, the Machine Learning checks only verify that the explanation contains a definition, example, and prevention method. They do not independently establish factual correctness.
+
+The results are based on limited reference examples and synthetic test data.
+
+### Verification Files
 
 - [AI Output Verification Report](Task-2-Curriculum-Redesign/ai_output_verification.md)
 - [Combined Verification Script](Task-2-Curriculum-Redesign/verify_all_ai_outputs.py)
 - [Programming Verification](Task-2-Curriculum-Redesign/verify_programming.py)
 - [Data Structures Verification](Task-2-Curriculum-Redesign/verify_data_structures.py)
 
-**Task 2 files:** [Task-2-Curriculum-Redesign](Task-2-Curriculum-Redesign)
+The provenance and independent validation of the recorded AI-generated responses should be reviewed before treating them as fully verified academic evidence.
+
+### Task 2 Documentation
+
+[View Task 2 Files](Task-2-Curriculum-Redesign)
 
 ---
 
-## Interactive Dashboard
+## Interactive Streamlit Dashboard
 
-The Streamlit dashboard displays:
+The project includes an interactive dashboard developed using Python and Streamlit.
+
+### Dashboard Features
 
 - Project overview
 - Official curriculum transcription
@@ -151,11 +203,13 @@ The Streamlit dashboard displays:
 
 ### Installation
 
+Install the required dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Dashboard
+### Run the Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -163,7 +217,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## Run Tests
+## Testing and Verification
 
 ### Task 1 — Workflow Tests
 
@@ -171,38 +225,62 @@ streamlit run dashboard/app.py
 python Task-1-College-Workflow/test_workflow.py
 ```
 
+**Previously recorded result:** 5/5 synthetic checks passed.
+
 ### Task 2 — Reference Exercise Tests
 
 ```bash
 python Task-2-Curriculum-Redesign/test_ai_exercises.py
 ```
 
-### AI Output Verification
+**Previously recorded result:** 5/5 reference checks passed.
+
+### Combined AI Output Verification
 
 ```bash
 python Task-2-Curriculum-Redesign/verify_all_ai_outputs.py
 ```
 
-**Recorded result:** 17/17 checks passed.
+**Previously recorded result:** 17/17 checks passed.
+
+### Individual Verification Scripts
+
+Computer Programming:
+
+```bash
+python Task-2-Curriculum-Redesign/verify_programming.py
+```
+
+Data Structures:
+
+```bash
+python Task-2-Curriculum-Redesign/verify_data_structures.py
+```
 
 ---
 
 ## Evidence and Academic Integrity
 
-This project distinguishes between:
+This project distinguishes between four types of information:
 
-- **Observed facts:** Information directly supported by identified sources.
-- **Estimates:** Quantities calculated using stated assumptions.
-- **Assumptions:** Hypothetical workflow rules, request volumes, and process timings.
-- **Proposals:** Suggested process and curriculum changes requiring validation.
+| Evidence Type | Description |
+|---|---|
+| Observed facts | Information directly supported by identified sources |
+| Estimates | Calculations based on stated assumptions |
+| Assumptions | Hypothetical workflow rules, request volumes, and timings |
+| Proposals | Suggested improvements requiring further validation |
 
-No confidential student information is used.
+### Academic Integrity Statement
 
-No institutional field observation, faculty approval, or employer endorsement is claimed.
+- No confidential student information is included.
+- No unauthorized institutional access is claimed.
+- No institutional field observation or approval is claimed.
+- Synthetic data is used for workflow testing.
+- AI assistance was used for drafting, coding, and example generation.
+- Known evidence gaps and limitations are documented.
+- Verification results are not presented as proof of production readiness.
 
-AI assistance was used for drafting, coding support, and example generation.
-
-AI-generated outputs require verification, and known limitations are documented.
+Supporting evidence is available in the `evidence/` directory.
 
 ---
 
@@ -252,18 +330,20 @@ icfai-workflow-curriculum-audit/
 
 ## Status and Limitations
 
-This repository is an academic prototype and proposal, not an institutional deployment.
+This repository represents an academic prototype and proposal rather than an institutional deployment.
 
-Outstanding validation includes:
+### Outstanding Validation
 
 1. Confirming the applicable official curriculum regulations and credit allocations.
 2. Obtaining authorized workflow observations if permission becomes available.
 3. Reviewing the provenance and independent verification of recorded AI-generated responses.
 4. Obtaining faculty or graduate feedback where feasible.
-5. Independently verifying all linked job postings and preserving their dates.
-6. Reconciling the proposed curriculum changes with the full programme credit requirements.
+5. Independently verifying linked industry job descriptions and their dates.
+6. Reconciling proposed curriculum changes with full programme credit requirements.
 
-The workflow time savings are hypothetical estimates, and the proposed curriculum changes require institutional review before adoption.
+The workflow time savings are hypothetical estimates.
+
+The curriculum redesign requires further academic and regulatory review before implementation.
 
 ---
 
@@ -272,17 +352,19 @@ The workflow time savings are hypothetical estimates, and the proposed curriculu
 **Repository:**  
 https://github.com/SHIRDIK936/icfai-workflow-curriculum-audit
 
-**Planned final release tag:** `v1.0.1`
+**Release Tag:** `v1.0.1`
 
-**Planned final release:**  
+**Release URL:**  
 https://github.com/SHIRDIK936/icfai-workflow-curriculum-audit/releases/tag/v1.0.1
 
-**AI verification evidence commit:**  
+**AI Verification Evidence Commit:**  
 https://github.com/SHIRDIK936/icfai-workflow-curriculum-audit/commit/db31a4b
 
-The evidence commit contains the additional AI-output verification files.
+**Release Snapshot Commit:** `ad15bcb`
 
-The final release tag will identify the complete submission snapshot after publication.
+Release `v1.0.1` was tagged from the submission snapshot containing the updated README and AI verification files.
+
+The release tag was pushed to GitHub. Publication of the corresponding GitHub Release should be confirmed separately.
 
 ---
 
@@ -290,8 +372,8 @@ The final release tag will identify the complete submission snapshot after publi
 
 This project presents a hypothetical college workflow redesign and a provisional AI/ML curriculum improvement proposal.
 
-The workflow component demonstrates process mapping, exception handling, synthetic testing, and estimated time savings.
+**Task 1** demonstrates process mapping, exception handling, synthetic testing, and estimated operational time savings.
 
-The curriculum component explores course modernization, industry skill alignment, and AI-assisted learning verification.
+**Task 2** explores curriculum modernization, industry skill alignment, and AI-assisted learning verification.
 
 Together, these assignments demonstrate the application of process analysis, programming, testing, and curriculum evaluation while documenting evidence limitations and areas requiring further validation.
