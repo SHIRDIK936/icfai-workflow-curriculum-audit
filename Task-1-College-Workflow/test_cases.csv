@@ -1,6 +1,6 @@
-Test_ID,Scenario,Expected_Result,Actual_Result,Status
-TC01,Normal request,Pending approval,Not executed,Pending
-TC02,Missing information,Correction requested,Not executed,Pending
-TC03,Duplicate request,Duplicate flagged,Not executed,Pending
-TC04,Unauthorized request,Access denied,Not executed,Pending
-TC05,System failure,Safe recovery,Not executed,Pending
+Test_ID,Scenario,Synthetic_Input,Expected_Result,Recovery_Action,Decision_Owner,Actual_Result,Status
+TC01,Normal Request,LAB-A 10:00-11:00 complete request,Pending approval,Authorized approver reviews request,Authorized Faculty,Not executed,Pending
+TC02,Missing Information,LAB-A missing booking purpose,Needs correction,Requester supplies missing purpose,Student,Not executed,Pending
+TC03,Duplicate Request,Same requester LAB-A same date and time,Existing request shown,Reuse existing request reference,System rule,Not executed,Pending
+TC04,Unauthorized Approval,Student attempts to approve a booking,Access denied,Log attempt and retain pending status,Authorized Faculty,Not executed,Pending
+TC05,Failed Reservation,Database failure during approval,Recovery required,Check reservation state before retry,Laboratory Coordinator,Not executed,Pending
