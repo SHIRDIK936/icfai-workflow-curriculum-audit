@@ -1,0 +1,17 @@
+Semester,Current_Course,Action,Proposed_Change,Current_Credits,Proposed_Credits,Credits_Affected,Reason
+1,Computer Programming,KEEP,Retain programming fundamentals,4,4,0,Core programming foundation
+1,Linear Algebra and Ordinary Differential Equations,KEEP,Retain mathematical foundations,3,3,0,Essential for machine learning
+2,Data Structures,KEEP,Retain data structures,4,4,0,Required for algorithms and software development
+3,Design and Analysis of Algorithms,KEEP,Retain algorithmic foundations,3,3,0,Important for efficient computation
+3,Database Management Systems,UPDATE,Add SQL optimization and data pipeline labs,4,4,4,Improve practical database skills
+4,Artificial Intelligence,UPDATE,Add search evaluation and responsible AI exercises,3,3,3,Improve practical AI understanding
+4,Data Science,UPDATE,Add reproducible data analysis projects,3,3,3,Strengthen data workflows
+5,Machine Learning,UPDATE,Add cross validation experiment tracking and model evaluation,4,4,4,Improve model development skills
+5,Data Wrangling and Visualization,UPDATE,Add automated data quality checks and dashboards,3,3,3,Strengthen industry data skills
+5,Blockchain Technology,REDUCE,Replace one credit of specialized content with Responsible AI,3,2,1,Prioritize broadly applicable AI competencies
+5,Responsible AI and Model Evaluation,ADD,Introduce fairness privacy and model documentation,0,1,1,Address responsible deployment skills
+6,Deep Learning,UPDATE,Add pretrained models and efficient inference,3,3,3,Improve practical deep learning skills
+6,Big Data Systems,UPDATE,Add distributed data processing labs,3,3,3,Strengthen large scale processing
+6,Autonomous Vehicles,REDUCE,Replace one credit of specialized content with MLOps,3,2,1,Create room for deployment skills
+6,MLOps and Model Deployment,ADD,Introduce model serving monitoring and reproducibility,0,1,1,Address deployment skills
+6,Special Project,UPDATE,Require testing documentation and a deployed prototype,3,3,3,Improve project readiness
